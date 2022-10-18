@@ -1,0 +1,118 @@
+/* Header CSS */
+/* Navbar CSS */
+* {
+  box-sizing: border-box;
+}
+
+.navbar {
+  padding: 0px !important;
+}
+
+#navbar ul li a {
+  font-size: 12px;
+}
+
+#navbar ul li a:hover {
+  color: #000 !important;
+}
+
+/* Header-Side CSS */
+.list-inline-item {
+  display: inline-block;
+  padding: 7px;
+}
+
+.list-inline-item:hover {
+  opacity: 0.6;
+}
+
+.list-inline {
+  margin: 0;
+}
+
+/* Header Side CSS */
+.header-side img {
+  width: 118px;
+}
+
+.list-unstyled {
+  margin-bottom: 0px !important;
+}
+
+#last-header-side a {
+  text-decoration: none;
+}
+
+#last-header-side a:hover {
+  color: orange !important;
+  transition: 0.7s;
+}
+
+.bottom-nav-link {
+  font-weight: 500;
+  padding: 15px !important;
+  font-size: 13px;
+}
+
+.bottom-nav-link:hover {
+  color: orange !important;
+  border-bottom: 2px solid orange;
+}
+
+/* Main CSS */
+
+.breadcrumb .breadcrumb-item::before {
+  color: orange;
+  font-weight: 650;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  border-bottom: 1px solid #000;
+}
+
+.product-detail-carousel {
+  width: 300px;
+}
+
+.product-detail h5 {
+  font-size: 12px;
+}
+
+.carousel-info {
+  font-size: 12px;
+}
+
+.carousel-info div p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.main-carousel img {
+  width: 300px;
+}
+
+.main-carousel div {
+  font-size: 10px;
+}
+
+.main-carousel div p {
+  margin: 0;
+  padding: 0;
+}
+
+.small-ratings {
+  font-size: 14px;
+}
+
+.small-ratings a:hover {
+  color: orange !important;
+  border-bottom: 1px solid orange;
+}
+
+.slide-images img {
+  width: 30px;
+}
